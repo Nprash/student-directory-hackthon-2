@@ -1,0 +1,106 @@
+*,
+::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Okra, "Helvetica, sans-serif"
+}
+
+.container{
+    /* position: absolute; */
+    width: 400px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* left: 550px;
+    top: 50px; */
+    margin: 40px auto;
+}
+.card{
+    width: fit-content;
+    box-shadow: 2px 3px 5px 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+form{
+    width:95%;
+    margin: auto auto;
+}
+input{
+    width: 95%;
+    height: 40px;
+    border: 1px solid dodgerblue;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding: 10px;
+}
+input:focus{
+    outline: none;
+    border: 1px solid lightgrey;
+}
+input::placeholder{
+    font-size: 16px;
+    color: #222;
+}
+h3{
+    width: fit-content;
+    height: 50px;
+    font-size: 22px;
+    padding: 5px;
+    margin: 15px auto ;
+}
+.button{
+    margin: 10px auto;
+}
+.btn{
+    width: 70px;
+    height: 30px;
+    font-size: 18px;
+    padding: 5px;
+    background: transparent;
+    cursor: pointer;
+    border: 1px solid dodgerblue ;
+    border-radius: 5px;
+    margin: 0 40%;
+}
+.btn:hover{
+    background: dodgerblue;
+    color: #fff;
+}
+.build-container{
+    width:400px;
+    /* height: 100px; */
+    margin: 40px auto;
+}
+
+.user-card{
+    width: 400px;
+    height: 100px;
+    margin-bottom: 20px;
+    box-shadow: 2px 3px 5px 3px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    background: lightgreen;
+
+}
+.alert-message{
+    display: none;
+}
+#alert-msg{
+    margin-left: 20px;
+    color: red;
+}
+
+.user-card h3{
+    margin:0px auto;
+    padding: 20px;
+    text-align: center;
+    color: blueviolet;
+}
+.user-card p{
+    padding: 10px;
+    text-align: center;
+    color: #222;
+}
+
